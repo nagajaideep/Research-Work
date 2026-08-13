@@ -1,0 +1,82 @@
+[
+  {
+    "round": 1,
+    "your_action": "C",
+    "opponent_action": "C",
+    "your_payoff": 3,
+    "opponent_payoff": 3,
+    "full_response": "DECISION: C"
+  },
+  {
+    "round": 2,
+    "your_action": "C",
+    "opponent_action": "C",
+    "your_payoff": 3,
+    "opponent_payoff": 3,
+    "full_response": "DECISION: C"
+  },
+  {
+    "round": 3,
+    "your_action": "C",
+    "opponent_action": "C",
+    "your_payoff": 3,
+    "opponent_payoff": 3,
+    "full_response": "DECISION: C"
+  },
+  {
+    "round": 4,
+    "your_action": "C",
+    "opponent_action": "C",
+    "your_payoff": 3,
+    "opponent_payoff": 3,
+    "full_response": "DECISION: C"
+  },
+  {
+    "round": 5,
+    "your_action": "D",
+    "opponent_action": "C",
+    "your_payoff": 5,
+    "opponent_payoff": 0,
+    "full_response": "DECISION: D"
+  },
+  {
+    "round": 6,
+    "your_action": "D",
+    "opponent_action": "D",
+    "your_payoff": 1,
+    "opponent_payoff": 1,
+    "full_response": "DECISION: D"
+  },
+  {
+    "round": 7,
+    "your_action": "D",
+    "opponent_action": "D",
+    "your_payoff": 1,
+    "opponent_payoff": 1,
+    "full_response": "DECISION: D"
+  },
+  {
+    "round": 8,
+    "your_action": "D",
+    "opponent_action": "D",
+    "your_payoff": 1,
+    "opponent_payoff": 1,
+    "full_response": "DECISION: D"
+  },
+  {
+    "round": 9,
+    "your_action": "D",
+    "opponent_action": "D",
+    "your_payoff": 1,
+    "opponent_payoff": 1,
+    "full_response": "DECISION: D"
+  },
+  {
+    "round": 10,
+    "your_action": "D",
+    "opponent_action": "D",
+    "your_payoff": 1,
+    "opponent_payoff": 1,
+    "full_response": "DECISION: D"
+  }
+]
