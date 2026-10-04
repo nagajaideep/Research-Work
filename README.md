@@ -169,4 +169,12 @@ If you are a professor / collaborator skimming this: Tracks A+B share one princi
 
 **Contact:** via GitHub [@nagajaideep](https://github.com/nagajaideep) — please open an issue with `[collab]` prefix.
 
+---
+
+## 8. Open to opportunities
+
+I am open to **research internships and research collaborations** in LLM reasoning, evaluation, and multi-agent systems.
+
+If you have read till here — please drop me an email at **jaideepchowdary2@gmail.com** with what you think or any suggestions. I read every note.
+
 *Last updated: Oct 2026. Active.*
