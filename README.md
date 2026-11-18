@@ -6,7 +6,21 @@
 
 > **Same logic, different behavior?** I test whether LLM reasoning quality survives elicitation changes, surface perturbations, and counterfactual premises — or breaks in systematic ways.
 
-**This repo currently contains only this README as a public log. Code, datasets, and full results will be released after publication.**
+**This repo is a public research log: this README plus the full written record of the corrective-unlearning project in [`corrective-unlearning/`](corrective-unlearning/README.md). Code, datasets, and raw results will be released after publication.**
+
+---
+
+## 0. New: full research record — Corrective unlearning under spurious bias
+
+> **[`corrective-unlearning/`](corrective-unlearning/README.md)** — *When Does Forgetting Fix Bias? Corrective Unlearning under Clean-Label Spurious Correlations.* The complete record of this project: question, setup, every experiment with numbers and confidence intervals, what holds and what failed, literature positioning, and the paper plan.
+>
+> | File | What it holds |
+> |---|---|
+> | [`corrective-unlearning/README.md`](corrective-unlearning/README.md) | Consolidated current state: claims, results tables, literature, paper plan, remaining experiments |
+> | [`corrective-unlearning/research-log.md`](corrective-unlearning/research-log.md) | Full chronological log of all runs (Runs 1 → 5b), including refuted hypotheses and corrections |
+> | [`corrective-unlearning/notes/`](corrective-unlearning/notes/) | Literature notes (unlearning for bias; shortcut taxonomies and last-layer retraining) and an independent referee report |
+>
+> **One-line finding:** deleting the flagged bias-aligned samples fixes a model only when the shortcut is a removable cue; for skewed attributes (Waterbirds, CelebA) unlearning is null and even exact retraining collapses at full discovery, at a point a count-based diagnostic predicts.
 
 ---
 
@@ -17,6 +31,7 @@
 | **A. Regret & Elicitation** | Does regret change if you score vs ask the model? | Analysis complete, writing | L ≠ D, no universal winner |
 | **B. Perturbation Fingerprints** | Is inconsistency one failure or two mechanisms? | Validating, v15 | Surface vs conflict dissociate, fixes don't transfer |
 | **C. Direction Screening** | What is actually novel for 2025-26? | Screening 16 ideas | 1 lead retained, rest scoped |
+| **D. Corrective Unlearning under Spurious Bias** | When does forgetting flagged biased samples fix a model? | Experiments in progress, TMLR target | Works for removable cues only; [full record](corrective-unlearning/README.md) |
 
 ```mermaid
 flowchart LR
@@ -177,4 +192,4 @@ I am open to **research internships and research collaborations** in LLM reasoni
 
 If you have read till here — please drop me an email at **jaideepchowdary2@gmail.com** with what you think or any suggestions. I read every note.
 
-*Last updated: Oct 2026. Active.*
+*Last updated: Nov 2026. Active.*
